@@ -1,0 +1,13 @@
+*{
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@import "base/variables";
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/cards";
+@import "blocks/TEXT_TEXT";
+@import "blocks/footer";
+@import "blocks/media";

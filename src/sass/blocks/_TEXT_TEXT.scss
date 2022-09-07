@@ -1,0 +1,49 @@
+.TEXT_TEXT {
+  margin-top: 71px;
+  &_title {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+  }
+  &__cards {
+    display: flex;
+    gap: 90px;
+    margin-top: 32px;
+    justify-content: space-between;
+
+    &__card {
+      width: 248px;
+      height: 280px;
+      position: relative;
+      &_icon {
+        background: $icon;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      &_descr {
+        color: $special_dark-grey;
+        font-family: arial;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 31px;
+        width: 167px;
+      }
+      &_num {
+        color: $dark_grey;
+        height: 280px;
+        position: absolute;
+        left: 107px;
+        font-weight: 400;
+        font-size: 280px;
+        top: -106px;
+        text-align: center;
+        z-index: -1;
+      }
+    }
+  }
+}

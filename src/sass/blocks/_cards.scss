@@ -1,0 +1,64 @@
+.cards {
+  display: flex;
+  gap: 80px;
+}
+
+.card {
+  width: 570px;
+  height: 374px;
+  background: $dark_grey;
+  &__mainInfo {
+    display: flex;
+    align-items: center;
+    gap: 62px;
+    padding: 47px 0 0 52px;
+    &_icon {
+      background: $icon;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &_title {
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 36px;
+    }
+  }
+  &_descr {
+    font-family: arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 39px 0 0 52px;
+  }
+  &_link {
+    margin:  27px 410px 0 52px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+    a {
+      color: #000;
+      text-decoration: none;
+      &:hover {
+        color: $main-color;
+      }
+    }
+    &:hover {
+      img {
+        transition: 0.2s;
+        width: 34px;
+        padding-left: 20px;
+      }
+    }
+    img {
+      padding-left: 28px;
+      width: 24px;
+      height: 12px;
+    }
+  }
+}

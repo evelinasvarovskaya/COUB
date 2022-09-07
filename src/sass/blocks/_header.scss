@@ -1,0 +1,85 @@
+.header {
+  position: relative;
+  display: flex;
+  &__img {
+    position: absolute;
+    left: 576px;
+    top: 198px;
+  }
+}
+
+.logo {
+  display: flex;
+  height: 53px;
+  align-items: center;
+  padding: 46px 0 0 130px;
+  cursor: pointer;
+  &_text {
+    color: $main-color;
+    font-weight: 400;
+    font-size: 60px;
+  }
+}
+
+.mainInfo {
+  padding: 124px 0 0 190px;
+  &__title {
+    font-weight: 400;
+    font-size: 60px;
+  }
+  &__subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 24px;
+  }
+  &__button {
+    margin-top: 111px;
+    background: $main-color;
+    width: 244px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 20px;
+    color: $button_text;
+    cursor: pointer;
+    border: none;
+
+    a {
+      color: $button_text;
+      text-decoration: none;
+    }
+    &:hover {
+      box-shadow: 7px 3px 24px -3px rgba(56, 61, 183, 0.40);
+    }
+  }
+}
+
+.leftBlock {
+  width: 720px;
+  height: 694px;
+  background: $main-color;
+  margin-left: 180px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 400;
+  margin-top: 69px;
+  font-size: 20px;
+  hr {
+    display: none;
+  }
+  &_link {
+    color: $button-text;
+    position: relative;
+    line-height: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      border-bottom: 2px solid #FFFFFF;
+      padding-bottom: 8px;
+    }
+  }
+}
+
+
